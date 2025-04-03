@@ -1,0 +1,215 @@
+{"level":30,"time":"2025-04-03T20:48:22.661Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Listening on 51357"}
+(node:19800) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-03T20:48:22.799Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:48:23.205Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-04-03T20:48:23.206Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:48:23.205Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T20:48:23.307Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T20:48:23.307Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T20:48:23.307Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:48:23.307Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T20:48:23.336Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T20:48:23.336Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T20:48:23.408Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T20:48:23.408Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:48:23.815Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-03T20:48:23.815Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T20:48:25.002Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T20:48:25.013Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:48:25.013Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with css=body in page."}
+{"level":30,"time":"2025-04-03T20:48:25.103Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:48:30.114Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getElement"}
+{"level":30,"time":"2025-04-03T20:48:30.114Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with [data-testid=\"cookie-consent\"] in page."}
+{"level":30,"time":"2025-04-03T20:48:40.130Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Error of node method  getElement"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-testid="cookie-consent"]')[22m
+
+    at getElement (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11165:17)
+    at async PlaywrightServer.getElement (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:48:40.159Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:48:40.159Z","pid":19800,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:48:40.331Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:48:40.343Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getElement"}
+{"level":30,"time":"2025-04-03T20:48:40.343Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button.close in page."}
+{"level":30,"time":"2025-04-03T20:48:50.347Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Error of node method  getElement"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('button.close')[22m
+
+    at getElement (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11165:17)
+    at async PlaywrightServer.getElement (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:48:50.374Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:48:50.374Z","pid":19800,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:48:50.548Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:48:50.672Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-04-03T20:48:50.672Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is disabled, return Locator: [data-testid] in page."}
+{"level":30,"time":"2025-04-03T20:48:50.673Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-04-03T20:49:00.681Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Found 0 elements."}
+{"level":30,"time":"2025-04-03T20:49:00.681Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getElements"}
+{"level":30,"time":"2025-04-03T20:49:00.694Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-04-03T20:49:00.694Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is disabled, return Locator: button, a in page."}
+{"level":30,"time":"2025-04-03T20:49:00.694Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-04-03T20:49:00.701Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Found 26 elements."}
+{"level":30,"time":"2025-04-03T20:49:00.702Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getElements"}
+{"level":30,"time":"2025-04-03T20:49:00.709Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.709Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=0 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.735Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=0 containing Lue lisää evästeistä"}
+{"level":30,"time":"2025-04-03T20:49:00.735Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.748Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.749Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=1 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.760Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=1 containing Valitse evästeet"}
+{"level":30,"time":"2025-04-03T20:49:00.760Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.771Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.771Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=2 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.783Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=2 containing Jatka välttämättömillä"}
+{"level":30,"time":"2025-04-03T20:49:00.783Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.796Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.796Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=3 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.808Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=3 containing Hyväksy kaikki"}
+{"level":30,"time":"2025-04-03T20:49:00.809Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.820Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.820Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=4 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.831Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=4 containing Lue lisää evästeistä"}
+{"level":30,"time":"2025-04-03T20:49:00.831Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.845Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.845Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=5 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.855Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=5 containing Salli kaikki"}
+{"level":30,"time":"2025-04-03T20:49:00.856Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.867Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.867Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=6 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.878Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=6 containing "}
+{"level":30,"time":"2025-04-03T20:49:00.878Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.891Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.891Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=7 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.901Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=7 containing Näytä toimittajan tiedot‎"}
+{"level":30,"time":"2025-04-03T20:49:00.901Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.915Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.915Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=8 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.926Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=8 containing "}
+{"level":30,"time":"2025-04-03T20:49:00.926Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.941Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.941Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=9 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.952Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=9 containing Näytä toimittajan tiedot‎"}
+{"level":30,"time":"2025-04-03T20:49:00.952Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.966Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.966Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=10 in page."}
+{"level":30,"time":"2025-04-03T20:49:00.977Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=10 containing "}
+{"level":30,"time":"2025-04-03T20:49:00.977Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.988Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:00.988Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=11 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.000Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=11 containing Näytä toimittajan tiedot‎"}
+{"level":30,"time":"2025-04-03T20:49:01.000Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.013Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.013Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=12 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.024Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=12 containing "}
+{"level":30,"time":"2025-04-03T20:49:01.024Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.038Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.038Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=13 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.049Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=13 containing Näytä toimittajan tiedot‎"}
+{"level":30,"time":"2025-04-03T20:49:01.049Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.061Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.061Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=14 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.072Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=14 containing Back Button"}
+{"level":30,"time":"2025-04-03T20:49:01.072Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.087Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.087Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=15 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.102Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=15 containing Filter Icon"}
+{"level":30,"time":"2025-04-03T20:49:01.102Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.118Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.118Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=16 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.132Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=16 containing Clear"}
+{"level":30,"time":"2025-04-03T20:49:01.132Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.147Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.147Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=17 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.161Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=17 containing Apply"}
+{"level":30,"time":"2025-04-03T20:49:01.161Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.178Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.178Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=18 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.191Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=18 containing Cancel"}
+{"level":30,"time":"2025-04-03T20:49:01.191Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.205Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.205Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=19 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.221Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=19 containing Vahvista valintani"}
+{"level":30,"time":"2025-04-03T20:49:01.221Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.242Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.242Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=20 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.264Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=20 containing "}
+{"level":30,"time":"2025-04-03T20:49:01.264Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.282Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.282Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=21 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.298Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=21 containing "}
+{"level":30,"time":"2025-04-03T20:49:01.298Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.314Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.315Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=22 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.328Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=22 containing "}
+{"level":30,"time":"2025-04-03T20:49:01.328Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.345Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.345Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=23 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.358Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=23 containing "}
+{"level":30,"time":"2025-04-03T20:49:01.358Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.374Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.374Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=24 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.387Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=24 containing "}
+{"level":30,"time":"2025-04-03T20:49:01.387Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.404Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.404Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with button, a >> nth=25 in page."}
+{"level":30,"time":"2025-04-03T20:49:01.419Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element button, a >> nth=25 containing "}
+{"level":30,"time":"2025-04-03T20:49:01.419Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:49:01.445Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-04-03T20:49:01.445Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is disabled, return Locator: main button, main a, main input in page."}
+{"level":30,"time":"2025-04-03T20:49:01.445Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-04-03T20:49:11.463Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Found 0 elements."}
+{"level":30,"time":"2025-04-03T20:49:11.463Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getElements"}
+{"level":30,"time":"2025-04-03T20:49:11.470Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-04-03T20:49:11.470Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Strict mode is disabled, return Locator: [data-testid] in page."}
+{"level":30,"time":"2025-04-03T20:49:11.470Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-04-03T20:49:21.476Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Found 0 elements."}
+{"level":30,"time":"2025-04-03T20:49:21.476Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getElements"}
+{"level":30,"time":"2025-04-03T20:49:21.499Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:49:21.499Z","pid":19800,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:49:21.674Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:49:21.680Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T20:49:21.699Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Removed page=fb37b5e6-b6bd-47bd-97ae-977a795b234f from context=bf2a79b4-c8be-4c88-8d26-853949406651 page stack"}
+{"level":30,"time":"2025-04-03T20:49:22.093Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:49:22.135Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:49:22.135Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:49:22.172Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:49:22.172Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:49:22.302Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-03T20:49:22.302Z","pid":19800,"hostname":"dvtcsdevp-001","msg":"End of node method closeAllBrowsers"}
