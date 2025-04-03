@@ -1,0 +1,86 @@
+# Cross-Platform Accessibility Testing Framework
+
+A Robot Framework-based automated testing framework for accessibility testing across different platforms, supporting both VoiceOver (macOS) and NVDA (Windows).
+
+## Features
+
+- Cross-platform support for screen readers (VoiceOver on macOS, NVDA on Windows)
+- Automated accessibility testing using Robot Framework
+- Screen reader speech capture and verification
+- Simulated mode for development and testing
+- Browser-based testing using Playwright
+- Detailed test reports and logging
+
+## Prerequisites
+
+- Python 3.11 or higher
+- Robot Framework
+- Node.js and npm (for Browser library)
+- Chrome/Chromium browser
+- For Windows: NVDA screen reader
+- For macOS: VoiceOver (built-in)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd AccessibilityTesting_2
+```
+
+2. Install Python dependencies:
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+3. Initialize the Browser library:
+```bash
+rfbrowser init
+```
+
+## Project Structure
+
+```
+AccessibilityTesting_2/
+├── libraries/
+│   └── screen_reader_integration.py
+├── resources/
+│   └── accessibility_keywords.resource
+├── tests/
+│   └── accessibility_tests.robot
+├── requirements.txt
+└── README.md
+```
+
+## Running Tests
+
+To run the accessibility tests:
+
+```bash
+python3 -m robot tests/accessibility_tests.robot
+```
+
+The tests will:
+1. Open the BBC Accessibility page
+2. Test screen reader output for various elements
+3. Verify navigation and content accessibility
+4. Generate detailed test reports
+
+## Test Reports
+
+After running the tests, you can find the following reports in the project root:
+- `log.html`: Detailed test execution log
+- `report.html`: Test results summary
+- `output.xml`: Raw test output data
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 

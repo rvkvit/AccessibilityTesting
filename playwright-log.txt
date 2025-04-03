@@ -1,0 +1,80 @@
+{"level":30,"time":"2025-04-03T11:42:18.025Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Listening on 58841"}
+(node:44081) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-03T11:42:19.093Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T11:42:20.120Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-03T11:42:20.120Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T11:42:20.120Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T11:42:20.126Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T11:42:20.126Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T11:42:20.127Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T11:42:20.127Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T11:42:20.167Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T11:42:20.167Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T11:42:20.179Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T11:42:20.179Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T11:42:20.868Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-03T11:42:20.868Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T11:42:21.601Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T11:42:21.611Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:21.612Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with css=body in page."}
+{"level":30,"time":"2025-04-03T11:42:21.637Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:22.647Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:22.647Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T11:42:22.655Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:22.659Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:22.659Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T11:42:22.662Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:22.664Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:22.664Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T11:42:22.666Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T11:42:22.670Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method hover"}
+{"level":30,"time":"2025-04-03T11:42:22.670Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T11:42:22.716Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method hover"}
+{"level":30,"time":"2025-04-03T11:42:22.727Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method hover"}
+{"level":30,"time":"2025-04-03T11:42:22.727Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T11:42:22.762Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method hover"}
+{"level":30,"time":"2025-04-03T11:42:22.768Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method hover"}
+{"level":30,"time":"2025-04-03T11:42:22.768Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T11:42:22.819Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method hover"}
+{"level":30,"time":"2025-04-03T11:42:22.827Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T11:42:22.827Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T11:42:23.081Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T11:42:25.094Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T11:42:25.094Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","Take screenshot with options: ":{"path":"/Users/rovinkrishnia/AccessibilityTesting_2/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T11:42:25.339Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T11:42:25.343Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T11:42:25.358Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Removed page=c3815e5d-f4ba-499f-bd88-cdcf0b4e4a93 from context=9ab1c486-728d-49a4-9c83-23690695ede6 page stack"}
+{"level":30,"time":"2025-04-03T11:42:25.527Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T11:42:25.532Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T11:42:25.532Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T11:42:25.539Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T11:42:25.539Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T11:42:25.572Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-03T11:42:25.572Z","pid":44081,"hostname":"Rovins-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
