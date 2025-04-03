@@ -24,10 +24,23 @@ Get Operating System
 Open Browser And Navigate To Site
     New Browser    browser=${BROWSER}    headless=${HEADLESS}
     New Context    viewport={'width': 1280, 'height': 720}
-    New Page       ${WEBSITE_URL}
     
-    # Wait for body to be visible, indicating page has loaded
-    Wait For Elements State    ${PAGE_BODY}    visible    timeout=${TIMEOUT}
+    # Try to load the page with multiple attempts if needed
+    ${attempts}=    Set Variable    3
+    FOR    ${attempt}    IN RANGE    ${attempts}
+        TRY
+            New Page       ${WEBSITE_URL}
+            Wait For Elements State    css=body    state=attached    timeout=10
+            Log    Page loaded successfully on attempt ${attempt+1}    level=INFO
+            BREAK
+        EXCEPT
+            Log    Failed to load page on attempt ${attempt+1}    level=WARN
+            Run Keyword If    ${attempt} < ${attempts-1}    Sleep    5s
+            Run Keyword If    ${attempt} < ${attempts-1}    Close Page
+        END
+    END
+    
+    # Additional wait for page to stabilize
     Sleep    5s
     
     # If there's a cookie consent dialog, accept it
@@ -49,7 +62,8 @@ Find And Click Release Flag Section
     ELSE
         # Try to find a button or link that might open the release flag section
         ${buttons}=    Get Elements    css=button, a
-        Log    Searching for release flag section through ${buttons.length} buttons/links    level=INFO
+        ${button_count}=    Get Length    ${buttons}
+        Log    Searching for release flag section through ${button_count} buttons/links    level=INFO
         
         FOR    ${button}    IN    @{buttons}
             ${text}=    Get Text    ${button}
@@ -71,7 +85,8 @@ Find And Click Release Flag Section
         
         # If not found, try to find by looking at all elements with data-testid
         ${elements_with_testid}=    Get Elements    css=[data-testid]
-        Log    Checking ${elements_with_testid.length} elements with data-testid    level=INFO
+        ${testid_count}=    Get Length    ${elements_with_testid}
+        Log    Checking ${testid_count} elements with data-testid    level=INFO
         
         FOR    ${element}    IN    @{elements_with_testid}
             ${test_id}=    Get Attribute    ${element}    data-testid
@@ -105,7 +120,25 @@ Get All Elements In Release Flag Section
     # If no elements found, look for any interactive elements
     IF    ${count} == 0
         Log    No elements with data-testid found in release flag section, looking for any interactive elements    level=INFO
-        ${elements}=    Get Elements    css=${RELEASE_FLAG_SECTION} button, ${RELEASE_FLAG_SECTION} a, ${RELEASE_FLAG_SECTION} input, ${RELEASE_FLAG_SECTION} select
+        ${buttons}=    Get Elements    css=${RELEASE_FLAG_SECTION} button
+        ${links}=    Get Elements    css=${RELEASE_FLAG_SECTION} a
+        ${inputs}=    Get Elements    css=${RELEASE_FLAG_SECTION} input
+        ${selects}=    Get Elements    css=${RELEASE_FLAG_SECTION} select
+        
+        # Combine all the interactive elements
+        ${elements}=    Create List
+        FOR    ${button}    IN    @{buttons}
+            Append To List    ${elements}    ${button}
+        END
+        FOR    ${link}    IN    @{links}
+            Append To List    ${elements}    ${link}
+        END
+        FOR    ${input}    IN    @{inputs}
+            Append To List    ${elements}    ${input}
+        END
+        FOR    ${select}    IN    @{selects}
+            Append To List    ${elements}    ${select}
+        END
     END
     
     RETURN    ${elements}

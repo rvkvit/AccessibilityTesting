@@ -1,0 +1,111 @@
+{"level":30,"time":"2025-04-03T20:43:49.348Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Listening on 50543"}
+(node:20064) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-03T20:43:49.466Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:43:49.917Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-04-03T20:43:49.918Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:43:49.918Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T20:43:49.983Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T20:43:49.983Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-03T20:43:49.983Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:43:49.983Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T20:43:50.041Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T20:43:50.041Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T20:43:50.071Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T20:43:50.072Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:43:50.763Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-03T20:43:50.764Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T20:43:52.158Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T20:43:52.167Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:43:52.167Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with css=body in page."}
+{"level":30,"time":"2025-04-03T20:44:22.170Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('body') to be visible[22m
+[2m    6 × locator resolved to hidden <body class="duet-bg-gradient">…</body>[22m
+[2m    57 × locator resolved to hidden <body class="duet-bg-gradient modal-open">…</body>[22m
+
+    at waitForElementState (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:44:22.249Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:44:22.249Z","pid":20064,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:44:22.418Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:44:22.712Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method getElement"}
+{"level":30,"time":"2025-04-03T20:44:22.712Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"release-flag-section\"] in page."}
+{"level":30,"time":"2025-04-03T20:44:32.717Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Error of node method  getElement"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-testid="release-flag-section"]')[22m
+
+    at getElement (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11165:17)
+    at async PlaywrightServer.getElement (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:44:32.741Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:44:32.741Z","pid":20064,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:44:32.916Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:44:32.944Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-04-03T20:44:32.944Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Strict mode is disabled, return Locator: css=button, a in page."}
+{"level":30,"time":"2025-04-03T20:44:32.944Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-04-03T20:44:32.950Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Found 26 elements."}
+{"level":30,"time":"2025-04-03T20:44:32.952Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method getElements"}
+{"level":30,"time":"2025-04-03T20:44:32.972Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-04-03T20:44:32.972Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Strict mode is disabled, return Locator: css=[data-testid^=\"release-flag-\"] in page."}
+{"level":30,"time":"2025-04-03T20:44:32.972Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-04-03T20:44:42.980Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Found 0 elements."}
+{"level":30,"time":"2025-04-03T20:44:42.980Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method getElements"}
+{"level":30,"time":"2025-04-03T20:44:42.986Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-04-03T20:44:42.986Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Strict mode is disabled, return Locator: css=css=[data-testid=\"release-flag-section\"] button, css=[data-testid=\"release-flag-section\"] a, css=[data-testid=\"release-flag-section\"] input, css=[data-testid=\"release-flag-section\"] select in page."}
+{"level":30,"time":"2025-04-03T20:44:42.986Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-04-03T20:44:42.988Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Error of node method  getElements"}
+================= Original suppressed error =================
+locator.all: Unexpected token "=" while parsing css selector "css=[data-testid="release-flag-section"] button, css=[data-testid="release-flag-section"] a, css=[data-testid="release-flag-section"] input, css=[data-testid="release-flag-section"] select". Did you mean to CSS.escape it?
+    at getElements (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11177:37)
+    at async PlaywrightServer.getElements (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:44:43.033Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:44:43.033Z","pid":20064,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:44:43.197Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:44:43.203Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T20:44:43.222Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Removed page=8532f427-7a5f-44db-9271-6500d131fe92 from context=a4ba28ea-1575-4eff-8a6c-dce1f47dc9dc page stack"}
+{"level":30,"time":"2025-04-03T20:44:43.724Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:44:43.766Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:44:43.767Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:44:43.805Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:44:43.805Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:44:44.441Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-03T20:44:44.442Z","pid":20064,"hostname":"dvtcsdevp-001","msg":"End of node method closeAllBrowsers"}
