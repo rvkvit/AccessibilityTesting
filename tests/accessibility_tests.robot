@@ -24,8 +24,8 @@ Verify Lahitapiola Accessibility
     ${capture_status}=    Start Speech Capture
     Log    Speech capture started with status: ${capture_status}    level=INFO
     
-    # Wait for Release Flag Section to be visible
-    Run Keyword And Continue On Failure    Wait For Release Flag Section
+    # Find and click the Release Flag Section
+    Run Keyword And Continue On Failure    Find And Click Release Flag Section
     
     # Test all elements in the Release Flag Section
     Run Keyword And Continue On Failure    Test All Elements In Release Flag Section
