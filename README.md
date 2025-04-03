@@ -41,7 +41,7 @@ rfbrowser init
 ## Project Structure
 
 ```
-AccessibilityTesting_2/
+AccessibilityTesting/
 ├── libraries/
 │   └── screen_reader_integration.py
 ├── resources/
@@ -83,4 +83,4 @@ After running the tests, you can find the following reports in the project root:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
