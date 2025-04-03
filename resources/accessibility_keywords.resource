@@ -10,11 +10,10 @@ Library    Process
 ${BROWSER}          chromium
 ${HEADLESS}         False
 ${TIMEOUT}          20
-${WEBSITE_URL}      https://www.bbc.co.uk/accessibility/
+${WEBSITE_URL}      https://sitaksasiointi.lahitapiola.fi/
 ${PAGE_BODY}        css=body
-${HEADING}          xpath=//h1[contains(text(), 'BBC Accessibility Help')]
-${MAIN_PARAGRAPH}   xpath=//p[contains(text(), 'All audiences are important')]
-${HELP_LINK}        xpath=//a[contains(text(), 'BBC Shows and Tours')]
+${RELEASE_FLAG_SECTION}    css=[data-testid="release-flag-section"]
+${RELEASE_FLAG_ELEMENTS}    css=${RELEASE_FLAG_SECTION} [data-testid]
 ${OS}              ${EMPTY}
 
 *** Keywords ***
@@ -22,7 +21,7 @@ Get Operating System
     ${result}=    Run Process    python    ${CURDIR}/../get_os.py
     RETURN    ${result.stdout}
 
-Open Browser And Navigate To Example Site
+Open Browser And Navigate To Site
     New Browser    browser=${BROWSER}    headless=${HEADLESS}
     New Context    viewport={'width': 1280, 'height': 720}
     New Page       ${WEBSITE_URL}
@@ -30,6 +29,14 @@ Open Browser And Navigate To Example Site
     # Wait for body to be visible, indicating page has loaded
     Wait For Elements State    ${PAGE_BODY}    visible    timeout=${TIMEOUT}
     Sleep    1s
+    
+Wait For Release Flag Section
+    Wait For Elements State    ${RELEASE_FLAG_SECTION}    visible    timeout=${TIMEOUT}
+    Log    Release flag section is visible    level=INFO
+
+Get All Elements In Release Flag Section
+    ${elements}=    Get Elements    ${RELEASE_FLAG_ELEMENTS}
+    RETURN    ${elements}
 
 Element Should Be Visible
     [Arguments]    ${selector}    ${message}=Element not visible
@@ -63,6 +70,21 @@ Get Element Speech
     Log    Element: ${element_name}, Speech: ${speech_text}    level=INFO
     
     RETURN    ${speech_text}
+
+Test All Elements In Release Flag Section
+    ${elements}=    Get All Elements In Release Flag Section
+    ${count}=    Get Length    ${elements}
+    Log    Found ${count} elements in Release Flag Section    level=INFO
+    
+    ${index}=    Set Variable    1
+    FOR    ${element}    IN    @{elements}
+        ${test_id}=    Get Attribute    ${element}    data-testid
+        ${text}=    Get Text    ${element}
+        Log    Testing element ${index}/${count}: ${test_id} - "${text}"    level=INFO
+        ${speech}=    Get Element Speech    ${element}    ${test_id}
+        Log    Element ${test_id} speech: ${speech}    level=INFO
+        ${index}=    Evaluate    ${index} + 1
+    END
 
 Click Element And Log Action
     [Arguments]    ${selector}    ${element_name}
