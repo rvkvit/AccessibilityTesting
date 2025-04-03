@@ -40,24 +40,27 @@ python -m pip install -r requirements.txt
 3. Platform-specific setup:
 
 ### Windows Setup
-Run the NVDA installation helper script:
+Run the NVDA setup script:
 ```bash
 python tools/install_nvda.py
 ```
-This will:
-- Download the NVDA installer
+This script will:
+- Check if NVDA is already installed
+- If not installed, offer to download and install NVDA
 - Install Python dependencies
-- Provide instructions for NVDA setup
+- Provide instructions for NVDA configuration
 
-After running the script:
-1. Run the downloaded NVDA installer (`tools/nvda_installer.exe`)
-2. Follow the installation wizard
-3. Enable the Controller Client in NVDA:
+If you already have NVDA installed:
+1. The script will detect your existing installation
+2. Skip the download/installation step
+3. Guide you through enabling the Controller Client:
    - Open NVDA
    - Press NVDA+N to open the menu
    - Go to Tools -> Remote
    - Check 'Allow this computer to be controlled remotely'
 4. Restart NVDA
+
+Note: You can still run the tests in simulation mode without NVDA installed.
 
 ### macOS Setup
 VoiceOver is built into macOS. To enable it:
