@@ -24,8 +24,8 @@ A Robot Framework-based automated testing framework for accessibility testing ac
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd AccessibilityTesting_2
+git clone https://github.com/rvkvit/AccessibilityTesting.git
+cd AccessibilityTesting
 ```
 
 2. Install Python dependencies:
