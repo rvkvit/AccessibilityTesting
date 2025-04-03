@@ -30,10 +30,44 @@ cd AccessibilityTesting
 
 2. Install Python dependencies:
 ```bash
+# On macOS:
 python3 -m pip install -r requirements.txt
+
+# On Windows:
+python -m pip install -r requirements.txt
 ```
 
-3. Initialize the Browser library:
+3. Platform-specific setup:
+
+### Windows Setup
+Run the NVDA installation helper script:
+```bash
+python tools/install_nvda.py
+```
+This will:
+- Download the NVDA installer
+- Install Python dependencies
+- Provide instructions for NVDA setup
+
+After running the script:
+1. Run the downloaded NVDA installer (`tools/nvda_installer.exe`)
+2. Follow the installation wizard
+3. Enable the Controller Client in NVDA:
+   - Open NVDA
+   - Press NVDA+N to open the menu
+   - Go to Tools -> Remote
+   - Check 'Allow this computer to be controlled remotely'
+4. Restart NVDA
+
+### macOS Setup
+VoiceOver is built into macOS. To enable it:
+1. Press Command+F5 to toggle VoiceOver
+2. Grant terminal access in System Preferences:
+   - Open System Preferences > Security & Privacy > Privacy
+   - Select 'Accessibility'
+   - Enable access for your terminal application
+
+4. Initialize the Browser library:
 ```bash
 rfbrowser init
 ```
@@ -48,6 +82,8 @@ AccessibilityTesting/
 │   └── accessibility_keywords.resource
 ├── tests/
 │   └── accessibility_tests.robot
+├── tools/
+│   └── install_nvda.py
 ├── requirements.txt
 └── README.md
 ```

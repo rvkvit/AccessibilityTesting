@@ -1,8 +1,14 @@
-robotframework==6.1.1
-robotframework-browser==18.0.0
+# Core dependencies (required for all platforms)
+robotframework>=6.1.1
+robotframework-browser>=18.0.0
 robotframework-pythonlibcore>=4.3.0,<5.0.0
 python-dotenv==1.0.0
 
-# Windows-specific dependencies (automatically skipped on other platforms)
-nvda-automation==0.2.0;platform_system=="Windows"
-pywinauto==0.6.8;platform_system=="Windows" 
+# Windows-specific dependencies
+nvda-automation==0.2.0; platform_system=="Windows"
+pywinauto>=0.6.8; platform_system=="Windows"
+
+# macOS-specific dependencies
+pyobjc-core>=9.2; platform_system=="Darwin"
+pyobjc-framework-Cocoa>=9.2; platform_system=="Darwin"
+pyobjc-framework-ApplicationServices>=9.2; platform_system=="Darwin" 
