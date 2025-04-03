@@ -10,6 +10,11 @@ def check_nvda_installed():
     Check if NVDA is already installed on Windows.
     Returns True if installed, False otherwise.
     """
+    # Check custom installation path
+    custom_path = r"C:\Program Files (x86)\NVDA"
+    if os.path.exists(custom_path) and os.path.isdir(custom_path):
+        return True
+        
     try:
         # Try to open NVDA registry key
         winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, r"SOFTWARE\NVDA", 0, winreg.KEY_READ)

@@ -1,0 +1,169 @@
+{"level":30,"time":"2025-04-03T20:20:34.472Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Listening on 63224"}
+(node:8620) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-03T20:20:34.549Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:20:34.890Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-04-03T20:20:34.891Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T20:20:34.891Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:20:34.935Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T20:20:34.935Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-04-03T20:20:34.935Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:20:34.935Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T20:20:34.958Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T20:20:34.959Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T20:20:35.012Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T20:20:35.012Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:20:35.448Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-03T20:20:35.448Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T20:20:36.791Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T20:20:36.796Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:36.796Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with css=body in page."}
+{"level":30,"time":"2025-04-03T20:20:36.824Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:37.833Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-03T20:20:37.834Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with const style = document.createElement('style');\nstyle.innerHTML = `\n.a11y-highlight {\noutline: 3px solid #ff6b6b !important;\noutline-offset: 2px !important;\nbackground-color: #ffd93d !important;\ntransition: all 0.3s ease-in-out !important;\n}\n`;\ndocument.head.appendChild(style); in page."}
+{"level":30,"time":"2025-04-03T20:20:37.838Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Error of node method  evaluateJavascript"}
+================= Original suppressed error =================
+locator.evaluate: Unsupported token ";" while parsing css selector "const style = document.createElement('style');
+style.innerHTML = `
+.a11y-highlight {
+outline: 3px solid #ff6b6b !important;
+outline-offset: 2px !important;
+background-color: #ffd93d !important;
+transition: all 0.3s ease-in-out !important;
+}
+`;
+document.head.appendChild(style);". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for const style = document.createElement('style');[22m
+[2mstyle.innerHTML = `[22m
+[2m.a11y-highlight {[22m
+[2moutline: 3px solid #ff6b6b !important;[22m
+[2moutline-offset: 2px !important;[22m
+[2mbackground-color: #ffd93d !important;[22m
+[2mtransition: all 0.3s ease-in-out !important;[22m
+[2m}[22m
+[2m`;[22m
+[2mdocument.head.appendChild(style);[22m
+
+    at getJSResult (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11271:28)
+    at async evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11275:21)
+    at async PlaywrightServer.evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13175:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:20:37.867Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:37.867Z","pid":8620,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:20:37.989Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:38.289Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:38.289Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T20:20:38.293Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:38.301Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:38.301Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T20:20:38.304Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:38.310Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:38.310Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:20:38.314Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:20:38.323Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-03T20:20:38.324Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with (element) => {\nelement.classList.add('a11y-highlight');\n} in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-04-03T20:20:38.326Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Error of node method  evaluateJavascript"}
+locator.evaluate: Unsupported token "{" while parsing css selector "(element) => {
+element.classList.add('a11y-highlight');
+}". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for (element) => {[22m
+[2melement.classList.add('a11y-highlight');[22m
+[2m}[22m
+
+    at getJSResult (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11271:28)
+    at async evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11275:21)
+    at async PlaywrightServer.evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13175:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:20:38.354Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:38.355Z","pid":8620,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:20:38.456Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:38.486Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-03T20:20:38.486Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with (element) => {\nelement.classList.add('a11y-highlight');\n} in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-04-03T20:20:38.489Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Error of node method  evaluateJavascript"}
+locator.evaluate: Unsupported token "{" while parsing css selector "(element) => {
+element.classList.add('a11y-highlight');
+}". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for (element) => {[22m
+[2melement.classList.add('a11y-highlight');[22m
+[2m}[22m
+
+    at getJSResult (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11271:28)
+    at async evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11275:21)
+    at async PlaywrightServer.evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13175:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:20:38.525Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:38.525Z","pid":8620,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:20:38.657Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:38.687Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2025-04-03T20:20:38.687Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with (element) => {\nelement.classList.add('a11y-highlight');\n} in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2025-04-03T20:20:38.689Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Error of node method  evaluateJavascript"}
+locator.evaluate: Unsupported token "{" while parsing css selector "(element) => {
+element.classList.add('a11y-highlight');
+}". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for (element) => {[22m
+[2melement.classList.add('a11y-highlight');[22m
+[2m}[22m
+
+    at getJSResult (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11271:28)
+    at async evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:11275:21)
+    at async PlaywrightServer.evaluateJavascript (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13175:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-04-03T20:20:38.728Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:38.728Z","pid":8620,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\fail-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:20:38.831Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:38.846Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T20:20:38.847Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:20:39.128Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T20:20:41.169Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:41.169Z","pid":8620,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:20:41.367Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:20:41.374Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T20:20:41.390Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Removed page=afd14ffd-3c59-42b0-8601-d9ca4eca19f8 from context=bf3cc951-312a-47d8-a381-f40ff5a7e439 page stack"}
+{"level":30,"time":"2025-04-03T20:20:42.040Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:20:42.084Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:20:42.085Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:20:42.140Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:20:42.140Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:20:42.245Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-03T20:20:42.245Z","pid":8620,"hostname":"dvtcsdevp-001","msg":"End of node method closeAllBrowsers"}

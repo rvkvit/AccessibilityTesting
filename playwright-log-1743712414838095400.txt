@@ -1,0 +1,116 @@
+{"level":30,"time":"2025-04-03T20:33:36.558Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Listening on 65279"}
+(node:16932) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-03T20:33:36.779Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:33:37.273Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-04-03T20:33:37.274Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-03T20:33:37.273Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-03T20:33:37.382Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-03T20:33:37.383Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-04-03T20:33:37.383Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:33:37.383Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Trace file: "}
+{"level":30,"time":"2025-04-03T20:33:37.457Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Changed active context"}
+{"level":30,"time":"2025-04-03T20:33:37.458Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-03T20:33:37.511Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-03T20:33:37.511Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-03T20:33:37.924Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-03T20:33:37.924Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Changed active page"}
+{"level":30,"time":"2025-04-03T20:33:39.730Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-03T20:33:39.736Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:39.737Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with css=body in page."}
+{"level":30,"time":"2025-04-03T20:33:39.779Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:42.995Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:42.995Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.000Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:43.010Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:43.010Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.015Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:43.028Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:43.029Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.033Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-03T20:33:43.056Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getElement"}
+{"level":30,"time":"2025-04-03T20:33:43.057Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.061Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getElement"}
+{"level":30,"time":"2025-04-03T20:33:43.069Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-04-03T20:33:43.069Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.091Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved dom property for element xpath=//h1[contains(text(), 'BBC Accessibility Help')] containing H1"}
+{"level":30,"time":"2025-04-03T20:33:43.091Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-04-03T20:33:43.098Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:33:43.098Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.117Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element xpath=//h1[contains(text(), 'BBC Accessibility Help')] containing BBC Accessibility Help"}
+{"level":30,"time":"2025-04-03T20:33:43.117Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:33:43.123Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-04-03T20:33:43.124Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//h1[contains(text(), 'BBC Accessibility Help')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.133Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved attribute for element xpath=//h1[contains(text(), 'BBC Accessibility Help')] containing null"}
+{"level":30,"time":"2025-04-03T20:33:43.133Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-04-03T20:33:43.265Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getElement"}
+{"level":30,"time":"2025-04-03T20:33:43.265Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.269Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getElement"}
+{"level":30,"time":"2025-04-03T20:33:43.273Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-04-03T20:33:43.273Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.281Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved dom property for element xpath=//p[contains(text(), 'All audiences are important')] containing P"}
+{"level":30,"time":"2025-04-03T20:33:43.281Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-04-03T20:33:43.285Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:33:43.286Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.299Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element xpath=//p[contains(text(), 'All audiences are important')] containing All audiences are important to the BBC."}
+{"level":30,"time":"2025-04-03T20:33:43.299Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:33:43.305Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-04-03T20:33:43.305Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//p[contains(text(), 'All audiences are important')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.312Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved attribute for element xpath=//p[contains(text(), 'All audiences are important')] containing null"}
+{"level":30,"time":"2025-04-03T20:33:43.312Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-04-03T20:33:43.334Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getElement"}
+{"level":30,"time":"2025-04-03T20:33:43.334Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.337Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getElement"}
+{"level":30,"time":"2025-04-03T20:33:43.344Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2025-04-03T20:33:43.344Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.352Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved dom property for element xpath=//a[contains(text(), 'BBC Shows and Tours')] containing A"}
+{"level":30,"time":"2025-04-03T20:33:43.352Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2025-04-03T20:33:43.359Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-03T20:33:43.359Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.370Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved text for element xpath=//a[contains(text(), 'BBC Shows and Tours')] containing BBC Shows and Tours, booking assistance"}
+{"level":30,"time":"2025-04-03T20:33:43.370Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-03T20:33:43.377Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2025-04-03T20:33:43.377Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.385Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Retrieved attribute for element xpath=//a[contains(text(), 'BBC Shows and Tours')] containing null"}
+{"level":30,"time":"2025-04-03T20:33:43.385Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getElementAttribute"}
+{"level":30,"time":"2025-04-03T20:33:43.407Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-03T20:33:43.407Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(), 'BBC Shows and Tours')] in page."}
+{"level":30,"time":"2025-04-03T20:33:43.608Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method click"}
+{"level":30,"time":"2025-04-03T20:33:45.653Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:33:45.654Z","pid":16932,"hostname":"dvtcsdevp-001","Take screenshot with options: ":{"path":"C:\\Users\\KRISHRO\\Workspace_Robot\\AccessibilityTesting\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-03T20:33:45.865Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-03T20:33:45.872Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-03T20:33:45.889Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Removed page=45bacdd3-aace-4b16-8db8-051bef90b2d9 from context=ba974eec-1d02-4b28-a976-f9bee09d5b33 page stack"}
+{"level":30,"time":"2025-04-03T20:33:46.538Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:33:46.609Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:33:46.609Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\KRISHRO\AppData\Local\Programs\Python\Python310\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-03T20:33:46.682Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:33:46.682Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-03T20:33:46.787Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-03T20:33:46.787Z","pid":16932,"hostname":"dvtcsdevp-001","msg":"End of node method closeAllBrowsers"}
